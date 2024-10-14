@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(255, 142, 210);
+}
+.container {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 40px 30px 40px;
+    box-shadow: 80px 80px 80px rgb(203, 113, 167) ;
+}
+.main img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    border-radius: 100px;
+}
+.container .person{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px
+}
+.container .birth {
+    font-size: 30px;
+}
+.container .main .info h4 {
+    font-size: 20px;
+    margin: 5px 0 0 20px;
+}
+.container .main .info p {
+    font-size: 15px;
+    color: grey;
+    margin: 8px 0 0 20px;
+}
+.container .footer button {
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 25px 150px;
+    background: linear-gradient(103deg, rgb(196, 122, 196) -20%, rgb(253, 66, 178) 100%);
+    color: white;
+    font-size: 25px;
+    box-shadow: 0px 5px 20px rgb(253, 66, 178);
+}
